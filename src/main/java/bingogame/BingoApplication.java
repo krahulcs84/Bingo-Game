@@ -55,8 +55,6 @@ public class BingoApplication {
                 numberlist.add(number);
                 playerList.stream().forEach(player -> {
                     player.markMatchNumber(number);
-                  //  System.out.println("*******Player Board Information :"+player.name+"**************");
-                  //  bingoGame.print2DTicket(player.getBoard());;
                 });
                 System.out.println(numberlist);
                 if(numberlist.size() >=5){
